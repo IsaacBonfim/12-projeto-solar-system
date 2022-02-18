@@ -1,17 +1,23 @@
 :root {
---midnight-blue: rgba(9, 4, 70, 1);
---midnight-blue2: rgba(9, 4, 70, 0.9);
---gold-fusion: rgba(120, 111, 82, 1);
---yellow-orange: rgba(254, 185, 95, 1);
---imperial-red: rgba(247, 23, 53, 1);
---rose-red: rgba(194, 9, 90, 1);
+
+  --midnight-blue: rgba(9, 4, 70, 1);
+
+  --midnight-blue2: rgba(9, 4, 70, 0.9);
+
+  --gold-fusion: rgba(120, 111, 82, 1);
+
+  --yellow-orange: rgba(254, 185, 95, 1);
+
+  --imperial-red: rgba(247, 23, 53, 1);
+
+  --rose-red: rgba(194, 9, 90, 1);
 }
 
 * {
-  padding: 0;
   border: 0;
-  margin: 0;
   color: var(--yellow-orange);
+  margin: 0;
+  padding: 0;
   text-shadow: 1px 1px 2px var(--gold-fusion);
 }
 
@@ -21,28 +27,28 @@ main {
 }
 
 header {
-  width: 100%;
-  text-align: center;
   padding: 20px;
+  text-align: center;
+  width: 100%;
 }
 
 h2 {
-  text-align: center;
   padding: 15px;
+  text-align: center;
 }
 
 .solar-system {
-  width: 100%;
   background-color: var(--midnight-blue);
-  border-top: 3px solid var(--yellow-orange);
   border-bottom: 3px solid var(--yellow-orange);
+  border-top: 3px solid var(--yellow-orange);
+  width: 100%;
 }
 
 .solar-system ul {
   display: flex;
   flex-wrap: wrap;
-  list-style: none;
   justify-content: space-around;
+  list-style: none;
   padding-bottom: 10px;
 }
 
@@ -66,27 +72,27 @@ h2 {
 .missions ul {
   display: flex;
   flex-wrap: wrap;
-  list-style: none;
   justify-content: space-around;
+  list-style: none;
 }
 
 .missions li {
-  width: 200px;
-  font-size: 15px;
-  padding: 10px;
   background-color: var(--midnight-blue2);
   border: 1px solid lightgray;
   border-radius: 15px;
-  margin: 10px;
   box-shadow: 2px 2px 3px var(--midnight-blue);
+  font-size: 15px;
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
 }
 
 .title {
-  font-weight: 700;
-  text-align: center;
-  padding: 5px;
   border-bottom: 1px solid lightgray;
+  font-weight: 700;
   margin-bottom: 15px;
+  padding: 5px;
+  text-align: center;
 }
 
 .App {

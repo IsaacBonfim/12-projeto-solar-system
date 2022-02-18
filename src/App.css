@@ -1,3 +1,94 @@
+:root {
+--midnight-blue: rgba(9, 4, 70, 1);
+--midnight-blue2: rgba(9, 4, 70, 0.9);
+--gold-fusion: rgba(120, 111, 82, 1);
+--yellow-orange: rgba(254, 185, 95, 1);
+--imperial-red: rgba(247, 23, 53, 1);
+--rose-red: rgba(194, 9, 90, 1);
+}
+
+* {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  color: var(--yellow-orange);
+  text-shadow: 1px 1px 2px var(--gold-fusion);
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header {
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  padding: 15px;
+}
+
+.solar-system {
+  width: 100%;
+  background-color: var(--midnight-blue);
+  border-top: 3px solid var(--yellow-orange);
+  border-bottom: 3px solid var(--yellow-orange);
+}
+
+.solar-system ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: space-around;
+  padding-bottom: 10px;
+}
+
+.solar-system li {
+  text-align: center;
+}
+
+.solar-system p {
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.solar-system img {
+  width: 150px;
+}
+
+.missions {
+  width: 100%;
+}
+
+.missions ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: space-around;
+}
+
+.missions li {
+  width: 200px;
+  font-size: 15px;
+  padding: 10px;
+  background-color: var(--midnight-blue2);
+  border: 1px solid lightgray;
+  border-radius: 15px;
+  margin: 10px;
+  box-shadow: 2px 2px 3px var(--midnight-blue);
+}
+
+.title {
+  font-weight: 700;
+  text-align: center;
+  padding: 5px;
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 15px;
+}
+
 .App {
   text-align: center;
 }

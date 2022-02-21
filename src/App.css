@@ -8,9 +8,6 @@
 
   --yellow-orange: rgba(254, 185, 95, 1);
 
-  --imperial-red: rgba(247, 23, 53, 1);
-
-  --rose-red: rgba(194, 9, 90, 1);
 }
 
 * {
@@ -22,6 +19,7 @@
 }
 
 main {
+  background-color: var(--midnight-blue2);
   display: flex;
   flex-wrap: wrap;
 }
@@ -38,7 +36,7 @@ h2 {
 }
 
 .solar-system {
-  background-color: var(--midnight-blue);
+  background-image: url('https://cdn.pixabay.com/photo/2017/08/24/03/41/starry-sky-2675322_960_720.jpg');
   border-bottom: 3px solid var(--yellow-orange);
   border-top: 3px solid var(--yellow-orange);
   width: 100%;
@@ -77,10 +75,9 @@ h2 {
 }
 
 .missions li {
-  background-color: var(--midnight-blue2);
-  border: 1px solid lightgray;
+  background-image: url('https://cdn.pixabay.com/photo/2017/08/24/03/41/starry-sky-2675322_960_720.jpg');
   border-radius: 15px;
-  box-shadow: 2px 2px 3px var(--midnight-blue);
+  box-shadow: 4px 4px 5px var(--midnight-blue);
   font-size: 15px;
   margin: 10px;
   padding: 10px;
